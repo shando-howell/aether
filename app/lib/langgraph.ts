@@ -51,7 +51,7 @@ const initializeModel = () => {
 
 // Implement the conditional edge for the state graph
 const shouldContinue = (state: typeof MessagesAnnotation) => {
-    // To do...
+   
 }
 
 // Implement the workflow

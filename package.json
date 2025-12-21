@@ -9,10 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.36.5",
     "@langchain/anthropic": "^0.3.12",
     "@langchain/core": "^0.3.31",
     "@langchain/langgraph": "^0.2.41",
     "@wxflows/sdk": "^0.2.0-beta.6",
+    "convex": "^1.31.2",
     "langchain": "^0.3.11",
     "next": "16.0.7",
     "react": "19.2.0",

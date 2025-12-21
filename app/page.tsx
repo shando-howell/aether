@@ -1,10 +1,21 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="p-2">
-      <main className="">
-        <h1>Aether AI</h1>
+      <header className="flex text-2xl">
+        <h1 className="flex-1">AETHER AI</h1>
+        <Link href="/dashboard" className="text-white">Sign In</Link>
+      </header>
+      <main>
+        <div className="flex">
+          <div className="m-56">
+            <p className="text-white">Powered by Anthropic LLM</p>
+          </div>
+          <div className="m-56">
+            <p className="text-white">Integrates IBM WxFlows</p>
+          </div>
+        </div>
       </main>
     </div>
   );

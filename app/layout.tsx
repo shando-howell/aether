@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aether",
+  title: "Aether AI",
   description: "Aether AI Agent",
 };
 
