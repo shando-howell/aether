@@ -5,7 +5,7 @@ export default function Home() {
     <div className="p-2">
       <header className="flex text-2xl">
         <h1 className="flex-1">AETHER AI</h1>
-        <Link href="/dashboard" className="text-white">Sign In</Link>
+        <Link href="/dashboard" className="text-white">Dashboard</Link>
       </header>
       <main>
         <div className="flex">
